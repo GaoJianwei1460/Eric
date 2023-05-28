@@ -1,4 +1,0 @@
-repository "gamekitproject@chensiwei3746@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"
