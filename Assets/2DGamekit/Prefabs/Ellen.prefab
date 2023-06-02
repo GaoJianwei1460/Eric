@@ -164,7 +164,6 @@ GameObject:
   - component: {fileID: 50735333045448606}
   - component: {fileID: 114591936569520678}
   - component: {fileID: 114734347468151670}
-  - component: {fileID: 114854669915511232}
   - component: {fileID: 114774311958850474}
   - component: {fileID: 114460243114916098}
   - component: {fileID: 114680495344679792}
@@ -369,55 +368,6 @@ MonoBehaviour:
   dataSettings:
     dataTag: PlayerInput
     persistenceType: 3
---- !u!114 &114854669915511232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1125256590603436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49de84fa3d321d245bc900e599de015f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 212611162554739646}
-  damageable: {fileID: 114774311958850474}
-  meleeDamager: {fileID: 114460243114916098}
-  facingLeftBulletSpawnPoint: {fileID: 4456631231676054}
-  facingRightBulletSpawnPoint: {fileID: 4929711121330312}
-  bulletPool: {fileID: 114680495344679792}
-  cameraFollowTarget: {fileID: 4530920980854552}
-  maxSpeed: 7
-  groundAcceleration: 100
-  groundDeceleration: 100
-  pushingSpeedProportion: 0.5
-  airborneAccelProportion: 1
-  airborneDecelProportion: 0.5
-  gravity: 38
-  jumpSpeed: 16.5
-  jumpAbortSpeedReduction: 100
-  hurtJumpAngle: 45
-  hurtJumpSpeed: 8
-  flickeringDuration: 0.05
-  meleeAttackDashSpeed: 15
-  dashWhileAirborne: 1
-  footstepAudioPlayer: {fileID: 114293955134965878}
-  landingAudioPlayer: {fileID: 114437884384235768}
-  hurtAudioPlayer: {fileID: 114513338842717954}
-  meleeAttackAudioPlayer: {fileID: 114450141185934166}
-  rangedAttackAudioPlayer: {fileID: 114803637809275856}
-  shotsPerSecond: 2
-  bulletSpeed: 30
-  holdingGunTimeoutDuration: 1.5
-  rightBulletSpawnPointAnimated: 1
-  cameraHorizontalFacingOffset: 2
-  cameraHorizontalSpeedOffset: 0.2
-  cameraVerticalInputOffset: 2
-  maxHorizontalDeltaDampTime: 0.4
-  maxVerticalDeltaDampTime: 0.6
-  verticalCameraOffsetDelay: 1
-  spriteOriginallyFacesLeft: 0
 --- !u!114 &114774311958850474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +403,7 @@ MonoBehaviour:
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114854669915511232}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnHurt
         m_Mode: 0
@@ -468,7 +418,7 @@ MonoBehaviour:
   OnDie:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 114854669915511232}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDie
         m_Mode: 1
@@ -547,7 +497,7 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114854669915511232}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -566,7 +516,7 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114854669915511232}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -585,7 +535,7 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 114854669915511232}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
