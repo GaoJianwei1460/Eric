@@ -1,0 +1,2 @@
+将代码添加到物品上
+组件处“Time”可以设置延时破坏的时间，或者修改代码中的Invoke("DestroyObject", X)

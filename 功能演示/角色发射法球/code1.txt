@@ -1,0 +1,30 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class projectTile  MonoBehaviour
+{
+    public float bulletSpeed;
+    Rigidbody2D rb;
+    public GameObject impactEffect;
+    Vector2 direction = GetComponentRenderer().flipX  Vector2.left  Vector2.right;
+    bool facingLeft = (direction == Vector2.left  true  false);
+     Start is called before the first frame update
+    void Start()
+    {
+        rb=GetComponentRigidbody2D();
+       if(!facingLeft){
+        rb.velocity= transform.rightbulletSpeed;
+       }
+       else if(facingLeft){
+        rb.velocity= transform.rightbulletSpeed;
+       }
+    }
+
+     Update is called once per frame
+    void Update()
+    {
+        Instantiate(impactEffect,transform.position,Quaternion.identity);
+        Destroy(gameObject);    
+    }
+}

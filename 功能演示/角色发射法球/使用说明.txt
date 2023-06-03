@@ -1,0 +1,5 @@
+创建空组件为发射位置 firepos
+创建子弹动画bullet
+往bullet中加入组件projecttile，可设置发射速度
+将FireBalls组件拖入角色，设置好fire pos 以及 bullet、
+！！！火球图层（layer）要改成Player
