@@ -8,30 +8,37 @@ public class PlayerCharacter2 : MonoBehaviour
     public float speedY;
     public bool isGround;
     float timerY; //空格计时器
+
     Rigidbody2D rigidbody2d;
     SpriteRenderer SpriteRenderer;
     Animator animator;
+    Damageable2 playerDamageable;
+    
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         SpriteRenderer = transform.GetComponent<SpriteRenderer>();
         animator=transform.GetComponent<Animator>();
+        playerDamageable = transform.GetComponent<Damageable2>();
+        playerDamageable.onDead+=this.onDead;
+        playerDamageable.onHurt+=this.onHurt;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space)){
+         if(Input.GetKeyDown(KeyCode.Space) && isGround){
             timerY=0;
             SetSpeedY(speedY);
         }
         if(Input.GetKey(KeyCode.Space)){
             timerY+=Time.deltaTime;
-            if(timerY < 0.3f){
+            if(timerY < 0.2f){
             SetSpeedY(speedY);
             }
         }
+
         if(Input.GetKey(KeyCode.A)){
             SetSpeedX(-speedX);
         }
@@ -71,5 +78,13 @@ public class PlayerCharacter2 : MonoBehaviour
         if(raycastHit2D != null){
 
         }
+    }
+
+    public void onHurt(){
+        Debug.Log("HURRRRRRRRRRT");
+    }
+
+    public void onDead(){
+        Debug.Log("DEEEEEEEEEEEEAD");
     }
 }

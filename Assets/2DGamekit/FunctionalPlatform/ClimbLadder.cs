@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ClimbLadder : MonoBehaviour
 {
-public float climbSpeed;
+    public float climbSpeed;
 
     public bool isClimbing;
 
