@@ -10,8 +10,11 @@ Material:
   m_Name: Mist
   m_Shader: {fileID: -6465566751694194690, guid: 24eee208b27b654478cf22465e1c4138,
     type: 3}
+<<<<<<< HEAD
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -20,7 +23,10 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+<<<<<<< HEAD
   m_LockedProperties: 
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -48,6 +54,7 @@ Material:
     m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
+<<<<<<< HEAD
 --- !u!114 &8273071908771632660
 MonoBehaviour:
   m_ObjectHideFlags: 11
@@ -61,3 +68,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 7
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58

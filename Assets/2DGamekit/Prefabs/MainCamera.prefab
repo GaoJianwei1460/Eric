@@ -29,6 +29,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+=======
+  m_ConstrainProportionsScale: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_Children: []
   m_Father: {fileID: 4438040559237264}
   m_RootOrder: 0
@@ -132,6 +136,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
+<<<<<<< HEAD
+=======
+  m_VolumeFrameworkUpdateModeOption: 2
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_RenderPostProcessing: 1
   m_Antialiasing: 1
   m_AntialiasingQuality: 2
@@ -170,6 +178,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+=======
+  m_ConstrainProportionsScale: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_Children: []
   m_Father: {fileID: 4687200001476508}
   m_RootOrder: 0
@@ -255,6 +267,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+=======
+  m_ConstrainProportionsScale: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_Children:
   - {fileID: 4763125205162874}
   - {fileID: 4687200001476508}
@@ -291,6 +307,10 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -13.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+=======
+  m_ConstrainProportionsScale: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_Children:
   - {fileID: 4557241696368476}
   m_Father: {fileID: 4438040559237264}
@@ -324,8 +344,13 @@ MonoBehaviour:
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
+<<<<<<< HEAD
     GateFit: 0
     m_SensorSize: {x: 1.7777778, y: 1}
+=======
+    GateFit: 2
+    m_SensorSize: {x: 1, y: 1}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -392,6 +417,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+<<<<<<< HEAD
+=======
+  m_ConstrainProportionsScale: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_Children: []
   m_Father: {fileID: 4438040559237264}
   m_RootOrder: 2
@@ -408,7 +437,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   isGlobal: 1
+=======
+  m_IsGlobal: 1
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   priority: 0
   blendDistance: 0
   weight: 1

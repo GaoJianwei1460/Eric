@@ -164,7 +164,10 @@ GameObject:
   - component: {fileID: 50735333045448606}
   - component: {fileID: 114591936569520678}
   - component: {fileID: 114734347468151670}
+<<<<<<< HEAD
   - component: {fileID: 114854669915511232}
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   - component: {fileID: 114774311958850474}
   - component: {fileID: 114460243114916098}
   - component: {fileID: 114680495344679792}
@@ -192,7 +195,10 @@ Transform:
   - {fileID: 4929711121330312}
   - {fileID: 4653542333057188}
   - {fileID: 4262901333587652}
+<<<<<<< HEAD
   - {fileID: 4936532561290520}
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   - {fileID: 4190244102070708}
   - {fileID: 4971493519252120}
   - {fileID: 4168598803991272}
@@ -254,7 +260,11 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &95245875792028280
 Animator:
+<<<<<<< HEAD
   serializedVersion: 4
+=======
+  serializedVersion: 5
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -271,7 +281,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
   m_KeepAnimatorControllerStateOnDisable: 0
+=======
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
 --- !u!70 &70340845508230026
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -369,6 +384,7 @@ MonoBehaviour:
   dataSettings:
     dataTag: PlayerInput
     persistenceType: 3
+<<<<<<< HEAD
 --- !u!114 &114854669915511232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +434,8 @@ MonoBehaviour:
   maxVerticalDeltaDampTime: 0.6
   verticalCameraOffsetDelay: 1
   spriteOriginallyFacesLeft: 0
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
 --- !u!114 &114774311958850474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +471,11 @@ MonoBehaviour:
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
       - m_Target: {fileID: 114854669915511232}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
         m_TargetAssemblyTypeName: 
         m_MethodName: OnHurt
         m_Mode: 0
@@ -468,7 +490,11 @@ MonoBehaviour:
   OnDie:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
       - m_Target: {fileID: 114854669915511232}
+=======
+      - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDie
         m_Mode: 1
@@ -547,7 +573,11 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
         - m_Target: {fileID: 114854669915511232}
+=======
+        - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -566,7 +596,11 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
         - m_Target: {fileID: 114854669915511232}
+=======
+        - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -585,7 +619,11 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
         - m_Target: {fileID: 114854669915511232}
+=======
+        - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -699,7 +737,11 @@ Transform:
   - {fileID: 4329405625764224}
   - {fileID: 4505133206572346}
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 4
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1184178472015166
 GameObject:
@@ -888,7 +930,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
   m_RootOrder: 6
+=======
+  m_RootOrder: 5
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &212235282725819588
 SpriteRenderer:
@@ -991,7 +1037,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
   m_RootOrder: 7
+=======
+  m_RootOrder: 6
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &81430354304811952
 AudioListener:
@@ -1179,7 +1229,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
   m_RootOrder: 8
+=======
+  m_RootOrder: 7
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1828828651600950
 GameObject:
@@ -1600,6 +1654,7 @@ MonoBehaviour:
   overrides: []
   randomizePitch: 1
   pitchRange: 0.2
+<<<<<<< HEAD
 --- !u!1 &1969030349935768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1710,3 +1765,5 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58

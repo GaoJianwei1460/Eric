@@ -8,6 +8,10 @@ TagManager:
   - FireBall
   - Tilemap
   - Ladder
+<<<<<<< HEAD
+=======
+  - mushroom
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   layers:
   - Default
   - TransparentFX

@@ -9,6 +9,15 @@ public class PlayerCharacter2 : MonoBehaviour
     public bool isGround;
     float timerY; //空格计时器
 
+<<<<<<< HEAD
+=======
+    public float Spring;
+    bool isLadder;
+    bool isClimbing;
+    float vertical;
+    public float climbSpeed=1f;
+
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
     Rigidbody2D rigidbody2d;
     SpriteRenderer SpriteRenderer;
     Animator animator;
@@ -53,8 +62,22 @@ public class PlayerCharacter2 : MonoBehaviour
 
         CheckGround();
         animator.SetBool("isJump" , !isGround);
+<<<<<<< HEAD
     }
 
+=======
+
+        //Climb Ladder
+        vertical =  Input.GetAxis("Vertical");
+
+        if(isLadder && Mathf.Abs(vertical) > 0f){
+            isClimbing = true;
+            SetSpeedY(vertical*climbSpeed);
+        }
+    }
+
+
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
     public void SetSpeedX(float x){
         //动画状态机
         animator.SetBool("isRun" , x != 0);
@@ -80,6 +103,36 @@ public class PlayerCharacter2 : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
+=======
+//  Collision检测器
+    public void OnCollisionEnter2D(Collision2D obj){
+        if(obj.gameObject.CompareTag("mushroom")){
+            SetSpeedY(Spring);
+        }
+    }
+
+
+//  Trigger检测器
+    public void OnTriggerEnter2D(Collider2D obj){
+        if(obj.CompareTag("Ladder")){
+            isLadder = true;
+            rigidbody2d.gravityScale=0f;
+        }
+
+
+    }
+
+    public void OnTriggerExit2D(Collider2D obj){
+        if(obj.CompareTag("Ladder")){
+            isLadder = false;
+            isClimbing = false;
+            rigidbody2d.gravityScale=5f;
+        }
+    }
+//-------------
+
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
     public void onHurt(){
         Debug.Log("HURRRRRRRRRRT");
     }
