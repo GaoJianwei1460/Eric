@@ -13,6 +13,10 @@ public class keyPad : MonoBehaviour
         Ans.text +=  number.ToString();
     }
 
+    public void Del(){
+        Ans.text="";
+    }
+
     public void Execute(){
         if(Ans.text == Answer){
             Ans.text = "Correct";
@@ -20,6 +24,7 @@ public class keyPad : MonoBehaviour
         }
         else{
             Ans.text = "Invaid!";
+            Invoke("Del", 0.5f );
         }
     }
 
