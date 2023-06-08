@@ -9,6 +9,7 @@ public class PlayerInput2 : MonoBehaviour
     public InputButton Attack=new InputButton(KeyCode.J);
     public InputButton Shoot=new InputButton(KeyCode.K);
     public InputButton Jump=new InputButton(KeyCode.Space);
+    
     public InputAxis Horizontal = new InputAxis(KeyCode.A,KeyCode.D);
     public InputAxis Vertical = new InputAxis(KeyCode.S,KeyCode.W);
 

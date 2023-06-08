@@ -26,9 +26,14 @@ public class PlayerCharacter2 : MonoBehaviour
         rigidbody2d = transform.GetComponent<Rigidbody2D>();
         SpriteRenderer = transform.GetComponent<SpriteRenderer>();
         animator=transform.GetComponent<Animator>();
+        
         playerDamageable = transform.GetComponent<Damageable2>();
         playerDamageable.onDead+=this.onDead;
         playerDamageable.onHurt+=this.onHurt;
+
+
+        HP._instance.InitHP(playerDamageable.health);
+        
     }
 
     // Update is called once per frame
@@ -123,10 +128,15 @@ public class PlayerCharacter2 : MonoBehaviour
 //-------------
 
     public void onHurt(){
-        Debug.Log("HURRRRRRRRRRT");
+        animator.SetTrigger("Hurt");
+        HP._instance.UpdateHP(playerDamageable.health);
     }
 
     public void onDead(){
+        Debug.Log("DEEEEEEEEEEEEAD");
+    }
+
+    public void Attack(){
         Debug.Log("DEEEEEEEEEEEEAD");
     }
 }
