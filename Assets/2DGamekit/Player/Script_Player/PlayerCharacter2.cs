@@ -9,12 +9,15 @@ public class PlayerCharacter2 : MonoBehaviour
     public bool isGround;
     float timerY; //空格计时器
 
+<<<<<<< HEAD
+=======
     public float Spring;
     bool isLadder;
     bool isClimbing;
     float vertical;
     public float climbSpeed=1f;
 
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
     Rigidbody2D rigidbody2d;
     SpriteRenderer SpriteRenderer;
     Animator animator;
@@ -64,6 +67,10 @@ public class PlayerCharacter2 : MonoBehaviour
 
         CheckGround();
         animator.SetBool("isJump" , !isGround);
+<<<<<<< HEAD
+    }
+
+=======
 
         //Climb Ladder
         vertical =  Input.GetAxis("Vertical");
@@ -75,6 +82,7 @@ public class PlayerCharacter2 : MonoBehaviour
     }
 
 
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
     public void SetSpeedX(float x){
         //动画状态机
         animator.SetBool("isRun" , x != 0);
@@ -100,6 +108,8 @@ public class PlayerCharacter2 : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
+=======
 //  Collision检测器
     public void OnCollisionEnter2D(Collision2D obj){
         if(obj.gameObject.CompareTag("mushroom")){
@@ -127,6 +137,7 @@ public class PlayerCharacter2 : MonoBehaviour
     }
 //-------------
 
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
     public void onHurt(){
         animator.SetTrigger("Hurt");
         HP._instance.UpdateHP(playerDamageable.health);

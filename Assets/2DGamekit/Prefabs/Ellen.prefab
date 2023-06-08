@@ -164,6 +164,10 @@ GameObject:
   - component: {fileID: 50735333045448606}
   - component: {fileID: 114591936569520678}
   - component: {fileID: 114734347468151670}
+<<<<<<< HEAD
+  - component: {fileID: 114854669915511232}
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   - component: {fileID: 114774311958850474}
   - component: {fileID: 114460243114916098}
   - component: {fileID: 114680495344679792}
@@ -191,6 +195,10 @@ Transform:
   - {fileID: 4929711121330312}
   - {fileID: 4653542333057188}
   - {fileID: 4262901333587652}
+<<<<<<< HEAD
+  - {fileID: 4936532561290520}
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   - {fileID: 4190244102070708}
   - {fileID: 4971493519252120}
   - {fileID: 4168598803991272}
@@ -252,7 +260,11 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &95245875792028280
 Animator:
+<<<<<<< HEAD
+  serializedVersion: 4
+=======
   serializedVersion: 5
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -269,8 +281,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+<<<<<<< HEAD
+  m_KeepAnimatorControllerStateOnDisable: 0
+=======
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
 --- !u!70 &70340845508230026
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -368,6 +384,58 @@ MonoBehaviour:
   dataSettings:
     dataTag: PlayerInput
     persistenceType: 3
+<<<<<<< HEAD
+--- !u!114 &114854669915511232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125256590603436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49de84fa3d321d245bc900e599de015f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 212611162554739646}
+  damageable: {fileID: 114774311958850474}
+  meleeDamager: {fileID: 114460243114916098}
+  facingLeftBulletSpawnPoint: {fileID: 4456631231676054}
+  facingRightBulletSpawnPoint: {fileID: 4929711121330312}
+  bulletPool: {fileID: 114680495344679792}
+  cameraFollowTarget: {fileID: 4530920980854552}
+  maxSpeed: 7
+  groundAcceleration: 100
+  groundDeceleration: 100
+  pushingSpeedProportion: 0.5
+  airborneAccelProportion: 1
+  airborneDecelProportion: 0.5
+  gravity: 38
+  jumpSpeed: 16.5
+  jumpAbortSpeedReduction: 100
+  hurtJumpAngle: 45
+  hurtJumpSpeed: 8
+  flickeringDuration: 0.05
+  meleeAttackDashSpeed: 15
+  dashWhileAirborne: 1
+  footstepAudioPlayer: {fileID: 114293955134965878}
+  landingAudioPlayer: {fileID: 114437884384235768}
+  hurtAudioPlayer: {fileID: 114513338842717954}
+  meleeAttackAudioPlayer: {fileID: 114450141185934166}
+  rangedAttackAudioPlayer: {fileID: 114803637809275856}
+  shotsPerSecond: 2
+  bulletSpeed: 30
+  holdingGunTimeoutDuration: 1.5
+  rightBulletSpawnPointAnimated: 1
+  cameraHorizontalFacingOffset: 2
+  cameraHorizontalSpeedOffset: 0.2
+  cameraVerticalInputOffset: 2
+  maxHorizontalDeltaDampTime: 0.4
+  maxVerticalDeltaDampTime: 0.6
+  verticalCameraOffsetDelay: 1
+  spriteOriginallyFacesLeft: 0
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
 --- !u!114 &114774311958850474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,7 +471,11 @@ MonoBehaviour:
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
+      - m_Target: {fileID: 114854669915511232}
+=======
       - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
         m_TargetAssemblyTypeName: 
         m_MethodName: OnHurt
         m_Mode: 0
@@ -418,7 +490,11 @@ MonoBehaviour:
   OnDie:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
+      - m_Target: {fileID: 114854669915511232}
+=======
       - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
         m_TargetAssemblyTypeName: 
         m_MethodName: OnDie
         m_Mode: 1
@@ -497,7 +573,11 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
+        - m_Target: {fileID: 114854669915511232}
+=======
         - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -516,7 +596,11 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
+        - m_Target: {fileID: 114854669915511232}
+=======
         - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -535,7 +619,11 @@ MonoBehaviour:
     OnAdd:
       m_PersistentCalls:
         m_Calls:
+<<<<<<< HEAD
+        - m_Target: {fileID: 114854669915511232}
+=======
         - m_Target: {fileID: 0}
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
           m_TargetAssemblyTypeName: 
           m_MethodName: KeyInventoryEvent
           m_Mode: 1
@@ -649,7 +737,11 @@ Transform:
   - {fileID: 4329405625764224}
   - {fileID: 4505133206572346}
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
+  m_RootOrder: 5
+=======
   m_RootOrder: 4
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1184178472015166
 GameObject:
@@ -838,7 +930,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
+  m_RootOrder: 6
+=======
   m_RootOrder: 5
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &212235282725819588
 SpriteRenderer:
@@ -941,7 +1037,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
+  m_RootOrder: 7
+=======
   m_RootOrder: 6
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &81430354304811952
 AudioListener:
@@ -1129,7 +1229,11 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4212235226361802}
+<<<<<<< HEAD
+  m_RootOrder: 8
+=======
   m_RootOrder: 7
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1828828651600950
 GameObject:
@@ -1550,3 +1654,116 @@ MonoBehaviour:
   overrides: []
   randomizePitch: 1
   pitchRange: 0.2
+<<<<<<< HEAD
+--- !u!1 &1969030349935768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4936532561290520}
+  - component: {fileID: 406567409}
+  m_Layer: 13
+  m_Name: ChestLight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4936532561290520
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969030349935768}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0021880078, w: 0.9999976}
+  m_LocalPosition: {x: -0.07000005, y: 1.2909999, z: -0.35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4212235226361802}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 17.011002, y: 0, z: 0}
+--- !u!114 &406567409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969030349935768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ComponentVersion: 1
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.394
+  m_Color: {r: 1, g: 0.8862746, b: 0.76470596, a: 1}
+  m_Intensity: 1.2
+  m_LightVolumeIntensity: 1.03
+  m_LightVolumeIntensityEnabled: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_DeprecatedPointLightCookieSprite: {fileID: 0}
+  m_LightOrder: 0
+  m_OverlapOperation: 0
+  m_NormalMapDistance: 3
+  m_NormalMapQuality: 2
+  m_UseNormalMap: 0
+  m_ShadowIntensityEnabled: 0
+  m_ShadowIntensity: 0.75
+  m_ShadowVolumeIntensityEnabled: 0
+  m_ShadowVolumeIntensity: 0.728
+  m_Vertices:
+  - position: {x: 0.9985302, y: 0.9985302, z: 0}
+    color: {r: 0.70710677, g: 0.70710677, b: 0, a: 0}
+    uv: {x: 0, y: 0}
+  - position: {x: 0.9985302, y: 0.9985302, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0, y: 0}
+  - position: {x: -0.9985302, y: 0.9985302, z: 0}
+    color: {r: -0.70710677, g: 0.70710677, b: 0, a: 0}
+    uv: {x: 0, y: 0}
+  - position: {x: -0.9985302, y: 0.9985302, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0, y: 0}
+  - position: {x: -0.99853003, y: -0.9985304, z: 0}
+    color: {r: -0.70710665, g: -0.7071069, b: 0, a: 0}
+    uv: {x: 0, y: 0}
+  - position: {x: -0.99853003, y: -0.9985304, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0, y: 0}
+  - position: {x: 0.99853003, y: -0.9985304, z: 0}
+    color: {r: 0.70710665, g: -0.7071069, b: 0, a: 0}
+    uv: {x: 0, y: 0}
+  - position: {x: 0.99853003, y: -0.9985304, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0, y: 0}
+  - position: {x: 0, y: 0, z: 0}
+    color: {r: 0, g: 0, b: 0, a: 1}
+    uv: {x: 0, y: 0}
+  m_Triangles: 030001000800020000000100030002000100050003000800040002000300050004000300070005000800060004000500070006000500010007000800000006000700010000000700
+  m_LocalBounds:
+    m_Center: {x: 0, y: -0.00000011920929, z: 0}
+    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+  m_PointLightInnerAngle: 360
+  m_PointLightOuterAngle: 360
+  m_PointLightInnerRadius: 0
+  m_PointLightOuterRadius: 5.02
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+=======
+>>>>>>> 469207ab4efc8d59429021036120b70c2b6e1f58
